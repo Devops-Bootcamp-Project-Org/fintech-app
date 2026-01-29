@@ -6,7 +6,7 @@ metadata:
   annotations:
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-2:029939913795:certificate/57ad95eb-e7fd-429a-9160-945f9dfe5a33
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-2:029939913795:certificate/d647bc8a-fe0c-4e62-8f40-a19bd0c7591d
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS":443}]'
     alb.ingress.kubernetes.io/healthcheck-port: "8080"
     alb.ingress.kubernetes.io/healthcheck-path: "/actuator/health"
